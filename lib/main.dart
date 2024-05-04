@@ -13,7 +13,9 @@ class MyApp extends StatelessWidget {
     // );
     return MaterialApp(
       home: Scaffold(
-        body: Text("Hello World"),
+        body: Center(
+          child: Text("Hello World"),
+        ),
       ),
     );
   }
